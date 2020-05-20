@@ -14,6 +14,10 @@
 		B1EDCE422474F127004135FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1EDCE412474F127004135FC /* Assets.xcassets */; };
 		B1EDCE452474F127004135FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1EDCE442474F127004135FC /* Preview Assets.xcassets */; };
 		B1EDCE482474F127004135FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1EDCE462474F127004135FC /* LaunchScreen.storyboard */; };
+		B1EDCE502474F142004135FC /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EDCE4F2474F142004135FC /* SliderView.swift */; };
+		B1EDCE532474F31B004135FC /* Rating+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EDCE512474F31B004135FC /* Rating+CoreDataClass.swift */; };
+		B1EDCE542474F31B004135FC /* Rating+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EDCE522474F31B004135FC /* Rating+CoreDataProperties.swift */; };
+		B1FBEC3D24755BED0094A721 /* SavedRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FBEC3C24755BED0094A721 /* SavedRatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		B1EDCE442474F127004135FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B1EDCE472474F127004135FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1EDCE492474F127004135FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1EDCE4F2474F142004135FC /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		B1EDCE512474F31B004135FC /* Rating+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rating+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B1EDCE522474F31B004135FC /* Rating+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rating+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B1FBEC3C24755BED0094A721 /* SavedRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedRatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +50,8 @@
 		B1EDCE2C2474F124004135FC = {
 			isa = PBXGroup;
 			children = (
+				B1EDCE512474F31B004135FC /* Rating+CoreDataClass.swift */,
+				B1EDCE522474F31B004135FC /* Rating+CoreDataProperties.swift */,
 				B1EDCE372474F124004135FC /* RatingsAssignment */,
 				B1EDCE362474F124004135FC /* Products */,
 			);
@@ -61,6 +71,8 @@
 				B1EDCE382474F124004135FC /* AppDelegate.swift */,
 				B1EDCE3A2474F124004135FC /* SceneDelegate.swift */,
 				B1EDCE3F2474F124004135FC /* ContentView.swift */,
+				B1EDCE4F2474F142004135FC /* SliderView.swift */,
+				B1FBEC3C24755BED0094A721 /* SavedRatingView.swift */,
 				B1EDCE412474F127004135FC /* Assets.xcassets */,
 				B1EDCE462474F127004135FC /* LaunchScreen.storyboard */,
 				B1EDCE492474F127004135FC /* Info.plist */,
@@ -152,7 +164,11 @@
 				B1EDCE392474F124004135FC /* AppDelegate.swift in Sources */,
 				B1EDCE3E2474F124004135FC /* RatingsAssignment.xcdatamodeld in Sources */,
 				B1EDCE402474F124004135FC /* ContentView.swift in Sources */,
+				B1FBEC3D24755BED0094A721 /* SavedRatingView.swift in Sources */,
 				B1EDCE3B2474F124004135FC /* SceneDelegate.swift in Sources */,
+				B1EDCE542474F31B004135FC /* Rating+CoreDataProperties.swift in Sources */,
+				B1EDCE532474F31B004135FC /* Rating+CoreDataClass.swift in Sources */,
+				B1EDCE502474F142004135FC /* SliderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
